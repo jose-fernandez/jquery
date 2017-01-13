@@ -21,4 +21,13 @@ $(document).ready(function(){
 	$('.lista>li').on("click",function(){
 		$(this).hide(2000);
 	});
+	$('a').html("enlace");
+
+	$('.table1 tr>td').on("click", function(){
+		$(this).css('background-color', 'blue');
+	});
+
+	$('.table2 tr>td').on("click", function(){
+		$(this).hide(2000);
+	});
 });
