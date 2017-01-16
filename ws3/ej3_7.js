@@ -19,6 +19,7 @@ $(document).ready(function(){
   		}, 1200);
 	});
 	$('.nonanimated').click(function(){
-		$('#div').stop();
+		  $('#div').clearQueue();
+      $('#div').stop();
 	});
 });

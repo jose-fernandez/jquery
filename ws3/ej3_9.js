@@ -4,6 +4,7 @@ $(document).ready(function(){
         $("#div1").animate({opacity:0,marginTop:'10px'},1000);
     });
     $('#stop').click(function(){
-    	$('#div1').finish();
+    	$('#div1').clearQueue();
+    	$('#div1').stop();
     });
 });
